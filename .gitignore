@@ -34,6 +34,9 @@ report/*.lof
 report/*.lot
 report/*.cls
 
+# Include the IEEEtran.cls file in the repository
+!report/IEEEtran.cls
+
 # OS files
 .DS_Store
 Thumbs.db
