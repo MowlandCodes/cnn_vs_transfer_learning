@@ -1,0 +1,28 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+dist/
+build/
+
+# Virtual environment
+.venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# PyTorch model checkpoints
+*.pth
+
+# graphify output (regenerated on demand)
+graphify-out/
+
+# Dataset source archive (extracted batches already in dataset/)
+dataset/cifar-10-python.tar.gz
+
+# OS files
+.DS_Store
+Thumbs.db
+
+.opencode
+AGENTS.md
