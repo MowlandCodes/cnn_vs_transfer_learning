@@ -20,9 +20,24 @@ graphify-out/
 # Dataset source archive (extracted batches already in dataset/)
 dataset/cifar-10-python.tar.gz
 
+# LaTeX build artifacts
+report/*.aux
+report/*.fdb_latexmk
+report/*.fls
+report/*.log
+report/*.out
+report/*.synctex.gz
+report/*.bbl
+report/*.blg
+report/*.toc
+report/*.lof
+report/*.lot
+report/*.cls
+
 # OS files
 .DS_Store
 Thumbs.db
 
 .opencode
 AGENTS.md
+/dataset/cats_vs_dogs/cats_vs_dogs_subset.zip
